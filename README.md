@@ -25,7 +25,7 @@
 
 ```bash
 # 1. 克隆仓库
-git clone <仓库地址>
+git clone https://github.com/crcknight/AutoEvolve_Android
 cd AutoEvolve_Android
 
 # 2. 用 Android Studio 打开项目
@@ -42,7 +42,7 @@ cd AutoEvolve_Android
 
 ```bash
 # 1. 克隆仓库
-git clone <仓库地址>
+git clone https://github.com/crcknight/AutoEvolve_Android
 cd AutoEvolve_Android
 
 # 2. 构建 Debug APK
