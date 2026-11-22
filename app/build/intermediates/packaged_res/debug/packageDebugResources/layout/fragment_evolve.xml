@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="智能演化"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择演化目标（对手阵容）"
+            android:textSize="16sp"
+            android:paddingTop="16dp" />
+
+        <Spinner
+            android:id="@+id/spinner_opponent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="演化参数"
+            android:textSize="16sp"
+            android:paddingTop="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="种群:" />
+            <EditText android:id="@+id/et_pop_size" android:layout_width="80dp" android:layout_height="wrap_content" android:text="80" android:inputType="number" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="代数:" android:paddingLeft="16dp" />
+            <EditText android:id="@+id/et_generations" android:layout_width="80dp" android:layout_height="wrap_content" android:text="50" android:inputType="number" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_start_evolve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开始演化"
+            android:layout_marginTop="16dp" />
+
+        <ProgressBar
+            android:id="@+id/progress_evolve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:visibility="gone"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tv_evolve_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="适应度演化曲线"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <com.autoevolve.fragment.FitnessCurveView
+            android:id="@+id/fitness_curve"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FAFAFA" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="推荐阵容"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/tv_recommended_formation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_adopt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="采纳推荐"
+            android:visibility="gone"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>

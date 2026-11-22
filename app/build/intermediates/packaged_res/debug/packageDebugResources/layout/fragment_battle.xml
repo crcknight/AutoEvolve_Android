@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="模拟对战"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="己方阵容"
+            android:textSize="16sp"
+            android:paddingTop="16dp" />
+
+        <Spinner
+            android:id="@+id/spinner_my_formation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="敌方阵容"
+            android:textSize="16sp"
+            android:paddingTop="12dp" />
+
+        <Spinner
+            android:id="@+id/spinner_enemy_formation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_start_battle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开始对战"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="战斗过程"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/tv_battle_animation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:fontFamily="monospace"
+            android:background="#FFF8E1"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="战斗结果"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="12dp" />
+
+        <TextView
+            android:id="@+id/tv_battle_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:background="#F5F5F5"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/tv_battle_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

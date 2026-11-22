@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">棋阵演化</string>
+    <string name="title_hero">英雄库</string>
+    <string name="title_formation">阵容</string>
+    <string name="title_battle">对战</string>
+    <string name="title_evolve">演化</string>
+</resources>

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.autoevolve.app-debug-34:/layout_activity_main.xml.flat",
+        "source": "com.autoevolve.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.autoevolve.app-debug-34:/layout_fragment_hero.xml.flat",
+        "source": "com.autoevolve.app-main-36:/layout/fragment_hero.xml"
+    },
+    {
+        "merged": "com.autoevolve.app-debug-34:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.autoevolve.app-main-36:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.autoevolve.app-debug-34:/layout_fragment_battle.xml.flat",
+        "source": "com.autoevolve.app-main-36:/layout/fragment_battle.xml"
+    },
+    {
+        "merged": "com.autoevolve.app-debug-34:/layout_fragment_evolve.xml.flat",
+        "source": "com.autoevolve.app-main-36:/layout/fragment_evolve.xml"
+    },
+    {
+        "merged": "com.autoevolve.app-debug-34:/layout_item_hero.xml.flat",
+        "source": "com.autoevolve.app-main-36:/layout/item_hero.xml"
+    },
+    {
+        "merged": "com.autoevolve.app-debug-34:/layout_fragment_formation.xml.flat",
+        "source": "com.autoevolve.app-main-36:/layout/fragment_formation.xml"
+    }
+]
